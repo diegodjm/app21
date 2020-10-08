@@ -45,7 +45,7 @@ export class OfertaComponent implements OnInit, OnDestroy {
     this.carrinhoService.incluirItem(this.oferta)
     console.log(this.carrinhoService.exibirItens())
   }
-  
+
   public exibiImagem: string
  
   public exibirImagem(): string{
